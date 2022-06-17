@@ -24,10 +24,9 @@ func getData() (customers []string ) {
 
 	// create 1 record 
 
-	customers := []
-	customers[0] = customer
-	customers[1]
-	return customers
+	customers := []string
+	customers = append(customers, "Jahid Ahmed")
+
 }
 
 
@@ -88,3 +87,8 @@ func getData() (customers []string ) {
 //	customers[1]
 //	return customers
 //}
+
+
+// To Do 
+
+// - Loops
